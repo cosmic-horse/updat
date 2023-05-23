@@ -19,8 +19,7 @@ void defaultDialog({
     builder: (context) => AlertDialog(
       scrollable: true,
       title: Flex(
-        direction:
-            Theme.of(context).useMaterial3 ? Axis.vertical : Axis.horizontal,
+        direction: Theme.of(context).useMaterial3 ? Axis.vertical : Axis.horizontal,
         children: const [
           Icon(Icons.update),
           Text('Update available'),
